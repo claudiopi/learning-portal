@@ -1,10 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, Observable } from 'rxjs';
-import { AllCoursesType } from '../models/learning-app/all-courses-type';
 import { CurrentlyAttendingType } from '../models/learning-app/currently-attending-type';
-import { CategoriesType } from '../models/learning-app/categories-type';
 import { PopularLecturersType } from '../models/learning-app/popular-lecturers-type';
+import { CategoriesType } from '../models/learning-app/categories-type';
+import { AllCoursesType } from '../models/learning-app/all-courses-type';
 import { ErrorHandlerService } from './error-handler.service';
 
 @Injectable({
